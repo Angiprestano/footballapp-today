@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+#colors:hover {
+  background-color: rgb(173, 211, 173);
+  cursor: pointer;
+}
+
+#colors {
+  color: rgb(50, 176, 50);
+}
+
+#series:hover {
+  cursor: pointer;
+  background-color: rgb(184, 230, 184);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -25,7 +39,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: rgb(150, 226, 173);
 }
 
 @keyframes App-logo-spin {

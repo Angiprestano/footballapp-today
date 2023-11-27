@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import FootballNav from "./components/FootballNav";
+import SerieA from "./components/SerieA";
+import SerieB from "./components/SerieB";
+import SerieC from "./components/SerieC";
+import Ligue1 from "./components/Ligue1";
+import Liga from "./components/Liga";
+import PremierLeague from "./components/PremierLeague";
+import SerieD from "./components/SerieD";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <FootballNav />
+      <SerieA />
+      <SerieB />
+      <SerieC />
+      <SerieD />
+      <Ligue1 />
+      <Liga />
+      <PremierLeague />
     </div>
   );
 }
